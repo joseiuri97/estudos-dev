@@ -34,3 +34,7 @@
 1. `git add .` → seleciona os arquivos
 2. `git commit -m "descrição da mudança"` → salva a primeira versão
 3. `git push` → envia para o GitHub
+
+## Conceitos importantes
+- **Main** — tronco principal do projeto
+- **Branch** — ramificação ou galho. Usado para desenvolver uma funcionalidade sem estragar o código principal
