@@ -38,3 +38,6 @@
 ## Conceitos importantes
 - **Main** — tronco principal do projeto
 - **Branch** — ramificação ou galho. Usado para desenvolver uma funcionalidade sem estragar o código principal
+
+## Observação pessoal
+- O GitHub Desktop facilita o processo de commit com uma interface visual
