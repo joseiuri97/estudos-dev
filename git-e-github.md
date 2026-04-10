@@ -41,3 +41,14 @@
 
 ## Observação pessoal
 - O GitHub Desktop facilita o processo de commit com uma interface visual
+
+## Versionamento
+É o controle das diferentes versões do projeto ao longo do tempo.
+Cada commit é uma versão salva. Se algo der errado, é possível voltar para uma versão anterior.
+
+**Exemplo:**
+- Versão 1 → portfólio simples com nome e contato
+- Versão 2 → adicionou seção de projetos
+- Versão 3 → reformulou o visual completo
+
+O GitHub armazena esse histórico de versões.
