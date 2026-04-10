@@ -52,3 +52,13 @@ Cada commit é uma versão salva. Se algo der errado, é possível voltar para u
 - Versão 3 → reformulou o visual completo
 
 O GitHub armazena esse histórico de versões.
+
+## Issue
+É uma forma de comunicação dentro de um repositório no GitHub. Pode ser usada para:
+
+- 🐛 Reportar um bug — "Encontrei um erro na calculadora"
+- 💡 Sugerir uma melhoria — "Seria legal adicionar modo escuro"
+- ❓ Fazer uma pergunta — "Como faço para rodar o projeto?"
+- 📋 Registrar uma tarefa — "Preciso criar a página de contato"
+
+Qualquer pessoa pode abrir uma issue em repositórios públicos.
