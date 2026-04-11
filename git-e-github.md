@@ -62,3 +62,32 @@ O GitHub armazena esse histórico de versões.
 - 📋 Registrar uma tarefa — "Preciso criar a página de contato"
 
 Qualquer pessoa pode abrir uma issue em repositórios públicos.
+
+## Fork
+É uma cópia de um repositório de outra pessoa para a sua conta no GitHub.
+
+**Para que serve:**
+- Estudar o código de outra pessoa
+- Fazer melhorias sem afetar o original
+- Enviar um Pull Request com suas alterações
+
+**Diferença entre Fork e Clone:**
+- Fork → copia o repositório para sua conta no GitHub
+- Clone → baixa o repositório para o seu computador
+
+Geralmente os dois são feitos juntos:
+1. Fork → copia para sua conta
+2. Clone → baixa para o PC
+
+## Pull Request (PR)
+É uma solicitação para que o dono de um repositório aceite suas alterações.
+
+**Como funciona:**
+1. Você faz um fork do projeto
+2. Faz suas alterações
+3. Envia um Pull Request: "Fiz melhorias, pode aceitar?"
+4. O dono analisa e decide se aceita ou não
+
+**Resumindo:**
+- Issue → "Encontrei um problema"
+- Pull Request → "Resolvi o problema, pode aceitar?"
