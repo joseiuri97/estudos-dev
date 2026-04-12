@@ -91,3 +91,20 @@ Geralmente os dois são feitos juntos:
 **Resumindo:**
 - Issue → "Encontrei um problema"
 - Pull Request → "Resolvi o problema, pode aceitar?"
+
+## Markdown
+É uma linguagem simples para formatar texto.
+Usando símbolos como #, - e ** você cria títulos, listas e negritos.
+É usada nos arquivos .md do GitHub.
+
+**Principais símbolos:**
+- `#` → título grande
+- `##` → título médio
+- `###` → título pequeno
+- `-` → item de lista
+- `**texto**` → **negrito**
+- `*texto*` → *itálico*
+- `` `texto` `` → código inline
+- `---` → linha divisória
+
+É como um Word simplificado, mas em texto puro.
