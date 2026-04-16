@@ -6,13 +6,23 @@ A web é uma conversa constante entre o seu navegador e servidores espalhados pe
 
 ## HTTP e HTTPS
 
-- **HTTP** — protocolo de transferência de dados na web
-- **HTTPS** — versão segura do HTTP com criptografia
-- Criptografia embaralha os dados com uma chave secreta
+O **HTTP** é o protocolo de comunicação da web — um conjunto de regras que define como navegador e servidor se comunicam. Tudo que acontece quando você acessa um site segue essas regras.
+
+O **HTTPS** é a versão segura do HTTP, com criptografia:
+- Embaralha os dados com uma chave secreta
 - Cada navegação gera uma chave aleatória única
 - A chave é tão complexa que é praticamente indecifrável
 - 🔒 Cadeado no navegador = conexão segura
 - ⚠️ Sem cadeado = dados podem ser interceptados
+
+### O HTTP é como um idioma
+
+Tudo que acontece na web faz parte desse idioma:
+
+- **Request e Response** → o modelo de comunicação (pedido e resposta)
+- **Métodos** → o tipo do pedido (GET, POST, PUT, PATCH, DELETE)
+- **Status codes** → o resultado da resposta (200, 404, 500...)
+- **Cookies** → o mecanismo de memória entre as comunicações
 
 ---
 
@@ -34,16 +44,18 @@ A web é uma conversa constante entre o seu navegador e servidores espalhados pe
 
 ## Request e Response
 
-Toda comunicação na web segue o modelo de pedido e resposta:
+Toda comunicação na web segue o modelo de pedido e resposta — como um restaurante:
 
-- **Request** — solicitação feita pelo navegador ao servidor
-- **Response** — resposta do servidor a essa solicitação
+- Cliente (você) → digita o endereço no navegador
+- Garçom (navegador) → envia o **request** via HTTP ao servidor
+- Cozinha (servidor) → processa e envia o **response**
+- Garçom (navegador) → recebe e exibe a página na tela
 
-### Métodos HTTP
+---
 
-O HTTP é o protocolo de comunicação entre navegador e servidor. Os métodos HTTP são os **tipos de pedido** que você pode fazer dentro dessa comunicação — eles indicam a intenção do pedido.
+## Métodos HTTP
 
-É como um formulário de atendimento onde você marca o que quer fazer:
+Os métodos HTTP são os **tipos de pedido** que você pode fazer — eles indicam a intenção do pedido. Usando a analogia do restaurante:
 
 | Método | Intenção | Exemplo real |
 |---|---|---|
@@ -55,12 +67,42 @@ O HTTP é o protocolo de comunicação entre navegador e servidor. Os métodos H
 
 Quando o navegador faz um request ao servidor, ele diz não só *onde* quer chegar, mas *o que quer fazer* — e é isso que o método define.
 
-### Exemplos práticos
+---
 
-- Abrir uma página → GET
-- Criar uma conta → POST
-- Atualizar seu perfil → PUT ou PATCH
-- Deletar uma postagem → DELETE
+## Status Codes
+
+São os códigos que o servidor envia na response para informar o resultado do pedido:
+
+| Código | Significado |
+|---|---|
+| 200 | OK — deu certo |
+| 301 | Redirecionamento permanente |
+| 404 | Página não encontrada |
+| 500 | Erro interno no servidor |
+
+Na analogia do restaurante: é o garçom voltando e dizendo "seu pedido está pronto" (200) ou "não temos esse prato" (404).
+
+---
+
+## Cookies
+
+O HTTP não tem memória — cada request é tratado como se fosse o primeiro. Os cookies resolvem isso.
+
+Usando a analogia do restaurante: é como um cartãozinho que o restaurante te entrega na primeira visita:
+
+- 🍪 Nome: José Iuri
+- 🍪 Pedido favorito: X-Burguer sem cebola
+- 🍪 Última visita: hoje
+
+Na próxima vez que você chega, você mostra o cartão e o garçom já sabe quem você é.
+
+**O que os cookies guardam:**
+- Sessão de login → para não precisar logar toda hora
+- Preferências → idioma, tema, configurações
+- Carrinho de compras → itens que você adicionou
+- Histórico de navegação → para anúncios personalizados
+
+> **Importante:** cookies não são maliciosos por natureza, mas podem ser usados para rastrear seus hábitos de navegação — por isso os sites são obrigados a pedir sua permissão.
 
 ---
 
