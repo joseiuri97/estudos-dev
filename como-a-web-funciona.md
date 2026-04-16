@@ -41,13 +41,19 @@ Toda comunicação na web segue o modelo de pedido e resposta:
 
 ### Métodos HTTP
 
-| Método | Para que serve |
-|---|---|
-| GET | Consultar/buscar dados |
-| POST | Enviar dados / cadastrar |
-| PUT | Alterar dados inteiros |
-| PATCH | Alterar parte dos dados |
-| DELETE | Excluir dados |
+O HTTP é o protocolo de comunicação entre navegador e servidor. Os métodos HTTP são os **tipos de pedido** que você pode fazer dentro dessa comunicação — eles indicam a intenção do pedido.
+
+É como um formulário de atendimento onde você marca o que quer fazer:
+
+| Método | Intenção | Exemplo real |
+|---|---|---|
+| GET | Buscar/consultar dados | Abrir o Instagram |
+| POST | Enviar/cadastrar dados | Postar uma foto |
+| PUT | Substituir dados inteiros | Reescrever o perfil completo |
+| PATCH | Alterar parte dos dados | Editar só a bio |
+| DELETE | Excluir dados | Deletar um story |
+
+Quando o navegador faz um request ao servidor, ele diz não só *onde* quer chegar, mas *o que quer fazer* — e é isso que o método define.
 
 ### Exemplos práticos
 
