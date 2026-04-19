@@ -108,3 +108,48 @@ Usando símbolos como #, - e ** você cria títulos, listas e negritos.
 - `---` → linha divisória
 
 É como um Word simplificado, mas em texto puro.
+
+# GitHub Pages
+
+## O que é?
+
+O GitHub Pages é um serviço gratuito do GitHub que transforma seu repositório em um site publicado na internet — acessível por qualquer pessoa.
+
+---
+
+## Como funciona?
+
+O GitHub pega os arquivos do seu repositório (HTML, CSS, JS) e os publica automaticamente como um site. Não precisa pagar hospedagem, não precisa configurar servidor.
+
+---
+
+## Como ativar?
+
+1. Acessa o repositório no GitHub
+2. Clica em **Settings**
+3. Clica em **Pages** no menu lateral
+4. Em **Source** seleciona **Deploy from a branch**
+5. Seleciona a branch **main** e a pasta **/ (root)**
+6. Clica em **Save**
+7. Aguarda alguns minutos e o site estará no ar
+
+---
+
+## Onde fica publicado?
+
+O site fica disponível no endereço:
+
+https://seu-usuario.github.io/nome-do-repositorio
+
+Exemplos reais:
+- joseiuri97.github.io/calculadora
+- joseiuri97.github.io/app-notas
+- joseiuri97.github.io/portfolio
+
+---
+
+## Observações importantes
+
+- Após cada commit, o GitHub Pages demora alguns minutos para atualizar
+- Funciona apenas com arquivos estáticos (HTML, CSS, JS) — não suporta backend
+- É gratuito para repositórios públicos
