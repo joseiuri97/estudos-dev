@@ -90,18 +90,6 @@ git branch -d funcionalidade-lixeira
 
 ---
 
-## Visualizando as branches
-
-\`\`\`
-main      ●──────●──────●──────●
-               \              /
-feature         ●──────●──────
-\`\`\`
-
-Você trabalha na `feature`, testa tudo, e só então une com a `main`.
-
----
-
 ## Boas práticas
 
 - Nunca commite direto na `main` em projetos importantes
