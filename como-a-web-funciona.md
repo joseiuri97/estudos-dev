@@ -1,4 +1,4 @@
----
+###
 
 ### DHCP — Dynamic Host Configuration Protocol
 
@@ -10,7 +10,7 @@ Esse IP tem um prazo de validade chamado **lease** (concessão). Quando o prazo 
 
 Sem o DHCP, você teria que configurar manualmente em cada dispositivo: o IP, a máscara de sub-rede, o gateway e o DNS — garantindo que nenhum dois aparelhos usassem o mesmo número. Em redes com dezenas ou centenas de dispositivos, isso seria inviável.
 
----
+###
 
 ### DNS — Domain Name System
 
